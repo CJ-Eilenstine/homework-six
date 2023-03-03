@@ -54,6 +54,7 @@
   text-align: center;
   margin: auto;
   border-radius: 50px;
+  text-decoration: none;
 }
 
 .isreal-pic {
@@ -213,6 +214,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-transform: uppercase;
   font-family: gillmore;
   font-size: 15px;
+  text-decoration: none;
 }
 .home .promo {
   display: flex;
@@ -330,8 +332,6 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: space-evenly;
   border-radius: 50px;
   margin-top: 30px;
-  margin-right: 20px;
-  margin-left: 20px;
 }
 
 @media screen and (max-width: 980px) {
@@ -412,7 +412,7 @@ footer .socialmedia {
 }
 .about-wrapper .about-quotes .client img {
   height: 150px;
-  width: 260px;
+  min-width: 260px;
 }
 .about-wrapper .about-quotes .client .client-text {
   height: 150px;
