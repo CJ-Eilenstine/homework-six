@@ -23,8 +23,14 @@
   margin-bottom: 20px;
 }
 
+.tour-banner-format {
+  margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 .info-holder {
-  width: 90%;
+  width: 100%;
   height: 90%;
   color: #fff;
   margin: auto;
@@ -69,6 +75,30 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
 }
 
+.zealand-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+
+.france-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+
+.egypt-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+
+.japan-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+
+.canada-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+
+.ua-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -98,6 +128,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   padding-left: 50px;
   padding-right: 50px;
+  height: 90px;
 }
 .nav-holder nav {
   margin: auto;
@@ -386,6 +417,7 @@ footer .socialmedia {
 .about-wrapper .about-des h1 {
   font-size: 60px;
   font-family: proxima;
+  color: #000;
   display: inline-block;
   border-bottom: solid #000 2px;
 }
@@ -399,6 +431,7 @@ footer .socialmedia {
 .about-wrapper .about-quotes h1 {
   font-size: 40px;
   font-family: proxima;
+  color: #000;
   display: inline-block;
   border-bottom: solid #000 2px;
   margin-bottom: 37px;
@@ -432,6 +465,43 @@ footer .socialmedia {
   font-family: proxima;
   font-size: 20px;
   color: #79addc;
+}
+
+.tour-home {
+  max-width: 980px;
+  min-height: 700px;
+  margin: auto;
+  top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 142px;
+  margin-right: 141px;
+}
+.tour-home .tour-hero {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tour-home .tour-hero h1 {
+  font-size: 60px;
+  font-family: proxima;
+  color: #fff;
+}
+.tour-home .tour-banners {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=styles.css.map */

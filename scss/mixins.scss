@@ -22,9 +22,10 @@
     padding-bottom: 22px;
 }
 
-@mixin h1-format($font: $h1-font-size){
+@mixin h1-format($font: $h1-font-size, $black: $site-black){
     font-size: $font;
     font-family: proxima;
+    color: $black;
     display: inline-block;
     border-bottom: solid #000 2px;
 }

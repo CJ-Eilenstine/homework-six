@@ -11,8 +11,14 @@
     margin-bottom: 20px;
 }
 
+.tour-banner-format {
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .info-holder {
-    width: 90%;
+    width: 100%;
     height: 90%;
     color: $site-white;
     margin: auto;
@@ -57,4 +63,28 @@
 
 .aussie-pic {
     background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-03.jpg);
+}
+
+.zealand-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-04.jpg);
+}
+
+.france-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-05.jpg);
+}
+
+.egypt-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-06.jpg);
+}
+
+.japan-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-07.jpg);
+}
+
+.canada-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-08.jpg);
+}
+
+.ua-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-09.jpg);
 }
