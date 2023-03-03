@@ -1,0 +1,217 @@
+.home {
+    .hero {
+        width: 100%; //can also be set to $site-width
+        height: $hero-height;
+        background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) ,url(../images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            max-width: 416px;
+            min-height: 300px;
+            margin-top: 50px;
+
+            h4 {
+                color: $site-white;
+                font-family: proxima;
+                font-size: 60px;
+            }
+
+            p {
+                width: 420px;
+                color: $site-white;
+                font-family: gill italic;
+                font-size: 20px;
+                text-align: center;
+            }
+
+            .button {
+                width: 120px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                text-align: center;
+                background-color: $site-blue;
+                color: $site-white;
+                text-transform: uppercase;
+                font-family: gillmore;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .promo {
+        display: flex;
+        justify-content: space-between;
+        max-width: 818px;
+        min-height: $tour-banner-height;
+        margin: -43px auto 0 auto;
+    }
+
+    .form-area {
+        max-width: 818px;
+        min-height: 800px;
+        margin: 50px auto 0 auto;
+
+        h1 {
+            font-family: proxima;
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .form {
+
+            input {
+                height: 58px;
+                padding: 5px;
+                border: solid $site-blue 2px;
+                
+                box-shadow:none;
+            }
+
+            .two-input {
+                margin-bottom: 20px;
+                min-height: 58px;
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    width: 344px;
+                    margin-right: 10px;
+                }
+
+                .right {
+                    width: 453px;
+                    margin-left: 10px;
+                }
+            }
+
+
+            .single-line-input-holder {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+                margin-bottom: 20px;
+
+                label {
+                    font-family: gillmore;
+                    font-size: 18px;
+                }
+
+                .large-input {
+                    width: 698px;
+                    margin-left: 10px;
+                }
+
+                .icon {
+                    font-size: 18px;
+                    position: absolute;
+                    right: 30px;
+                }
+            }
+
+            .people-count {
+                display: flex;
+                align-items: center;
+                justify-content: space-between; 
+                position: relative;  
+                margin-bottom: 10px; 
+                
+                label {
+                    font-family: gillmore;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                }
+
+                .small-input {
+                    margin-bottom: 10px;
+                    width: 103px;
+                    height: 58px;
+                }    
+
+                .i1 {
+                    font-size: 18px;
+                    position: absolute;
+                    right: 2%;
+                    top: 28%;
+                }
+
+                .i2 {
+                    font-size: 18px;
+                    position: absolute;
+                    right: 38%;
+                    top: 28%;
+                }
+
+                .i3 {
+                    font-size: 18px;
+                    position: absolute;
+                    right: 75%;
+                    top: 28%;
+                }
+            }
+
+            .multi-line-input {
+                display: flex;
+
+                .larger-input {
+                    width: 818px;
+                    height: 192px;
+                    margin-bottom: 20px;
+                }    
+
+            }
+
+            .submit-button {
+                display: flex;
+                max-width: 813px;
+                height: 60px;
+                background-color: $site-blue;
+                border: none;
+                text-transform: uppercase;
+                font-family: gillmore;
+                font-size: 15px;
+                color: $site-white;
+                text-align: center;
+                margin: auto;
+                align-items: center;
+                justify-content: space-evenly;
+                border-radius: 50px;
+                margin-top: 30px;
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:980px){
+    .promo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-area{
+
+        h1 {
+            margin-left: 20px;
+        }
+
+        .form{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        
+    }
+}

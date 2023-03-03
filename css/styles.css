@@ -1,0 +1,437 @@
+@font-face {
+  font-family: gillmore;
+  src: url(../css/fonts/Gill-Sans-Font-Family/Gill\ Sans.otf);
+}
+@font-face {
+  font-family: gill italic;
+  src: url(../css/fonts/Gill-Sans-Font-Family/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+  font-family: proxima;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.background-props {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tour-component {
+  width: 236px;
+  height: 304px;
+  padding: 50px 0;
+  margin-bottom: 20px;
+}
+
+.info-holder {
+  width: 90%;
+  height: 90%;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+.info-holder h1 {
+  font-family: proxima;
+  font-size: 60px;
+}
+.info-holder p {
+  font-size: 30px;
+  font-family: proxima;
+}
+
+.button1 {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border: none;
+  text-transform: uppercase;
+  font-family: gillmore;
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.isreal-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+
+.us-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+
+.aussie-pic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.sitewrapper {
+  max-width: 1280px;
+  min-height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-holder {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  margin: 0 auto 0px auto;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.nav-holder nav {
+  margin: auto;
+  max-width: 980px;
+  height: 90px;
+  border-bottom: solid #fff 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 22px;
+}
+.nav-holder nav .logo {
+  width: 92px;
+  height: 42px;
+  margin-right: 20px;
+}
+.nav-holder nav .anchor {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.nav-holder nav .anchor a {
+  text-decoration: none;
+  color: #fff;
+  font-family: gillmore;
+  font-size: 15px;
+  margin: 5px 15px 5px 15px;
+}
+.nav-holder nav .anchor p {
+  color: #79ADDC;
+  font-size: 20px;
+}
+.nav-holder .about-nav {
+  margin: auto;
+  max-width: 980px;
+  height: 90px;
+  border-bottom: solid #000 2px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 22px;
+}
+.nav-holder .about-nav .logo {
+  width: 92px;
+  height: 42px;
+  margin-right: 20px;
+}
+.nav-holder .about-nav .about-anchor {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.nav-holder .about-nav .about-anchor a {
+  text-decoration: none;
+  color: #000;
+  font-family: gillmore;
+  font-size: 15px;
+  margin: 5px 15px 5px 15px;
+}
+.nav-holder .about-nav .about-anchor p {
+  color: #79ADDC;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .anchor {
+    flex-wrap: wrap;
+  }
+  .about-anchor {
+    flex-wrap: wrap;
+  }
+}
+.home .hero {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home .hero .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  max-width: 416px;
+  min-height: 300px;
+  margin-top: 50px;
+}
+.home .hero .title h4 {
+  color: #fff;
+  font-family: proxima;
+  font-size: 60px;
+}
+.home .hero .title p {
+  width: 420px;
+  color: #fff;
+  font-family: gill italic;
+  font-size: 20px;
+  text-align: center;
+}
+.home .hero .title .button {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #79addc;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: gillmore;
+  font-size: 15px;
+}
+.home .promo {
+  display: flex;
+  justify-content: space-between;
+  max-width: 818px;
+  min-height: 304px;
+  margin: -43px auto 0 auto;
+}
+.home .form-area {
+  max-width: 818px;
+  min-height: 800px;
+  margin: 50px auto 0 auto;
+}
+.home .form-area h1 {
+  font-family: proxima;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.home .form-area .form input {
+  height: 58px;
+  padding: 5px;
+  border: solid #79addc 2px;
+  box-shadow: none;
+}
+.home .form-area .form .two-input {
+  margin-bottom: 20px;
+  min-height: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+.home .form-area .form .two-input .left {
+  width: 344px;
+  margin-right: 10px;
+}
+.home .form-area .form .two-input .right {
+  width: 453px;
+  margin-left: 10px;
+}
+.home .form-area .form .single-line-input-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+}
+.home .form-area .form .single-line-input-holder label {
+  font-family: gillmore;
+  font-size: 18px;
+}
+.home .form-area .form .single-line-input-holder .large-input {
+  width: 698px;
+  margin-left: 10px;
+}
+.home .form-area .form .single-line-input-holder .icon {
+  font-size: 18px;
+  position: absolute;
+  right: 30px;
+}
+.home .form-area .form .people-count {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 10px;
+}
+.home .form-area .form .people-count label {
+  font-family: gillmore;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.home .form-area .form .people-count .small-input {
+  margin-bottom: 10px;
+  width: 103px;
+  height: 58px;
+}
+.home .form-area .form .people-count .i1 {
+  font-size: 18px;
+  position: absolute;
+  right: 2%;
+  top: 28%;
+}
+.home .form-area .form .people-count .i2 {
+  font-size: 18px;
+  position: absolute;
+  right: 38%;
+  top: 28%;
+}
+.home .form-area .form .people-count .i3 {
+  font-size: 18px;
+  position: absolute;
+  right: 75%;
+  top: 28%;
+}
+.home .form-area .form .multi-line-input {
+  display: flex;
+}
+.home .form-area .form .multi-line-input .larger-input {
+  width: 818px;
+  height: 192px;
+  margin-bottom: 20px;
+}
+.home .form-area .form .submit-button {
+  display: flex;
+  max-width: 813px;
+  height: 60px;
+  background-color: #79addc;
+  border: none;
+  text-transform: uppercase;
+  font-family: gillmore;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .promo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-area h1 {
+    margin-left: 20px;
+  }
+  .form-area .form {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+footer {
+  max-width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 90px auto 0px auto;
+}
+footer .copyright p {
+  font-family: gillmore;
+  font-size: 12px;
+  color: #fff;
+}
+footer .socialmedia {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.about-wrapper {
+  position: relative;
+  min-height: 80vh;
+  width: 75%;
+  margin: 0 auto 0px auto;
+  top: 90px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px;
+}
+.about-wrapper .about-des {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about-wrapper .about-des h1 {
+  font-size: 60px;
+  font-family: proxima;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+}
+.about-wrapper .about-des p {
+  font-size: 16px;
+  font-family: gillmore;
+}
+.about-wrapper .about-quotes {
+  margin-bottom: 130px;
+}
+.about-wrapper .about-quotes h1 {
+  font-size: 40px;
+  font-family: proxima;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+  margin-bottom: 37px;
+}
+.about-wrapper .about-quotes .client {
+  max-width: 670px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 37px;
+}
+.about-wrapper .about-quotes .client img {
+  height: 150px;
+  width: 260px;
+}
+.about-wrapper .about-quotes .client .client-text {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 410px;
+}
+.about-wrapper .about-quotes .client .client-text p {
+  font-size: 16px;
+  font-family: gill italic;
+  margin-left: 20px;
+}
+.about-wrapper .about-quotes .client .client-text .client-name {
+  margin-left: 20px;
+  text-align: right;
+  font-family: proxima;
+  font-size: 20px;
+  color: #79addc;
+}
+
+/*# sourceMappingURL=styles.css.map */

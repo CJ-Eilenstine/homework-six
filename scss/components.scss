@@ -1,0 +1,59 @@
+.background-props {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tour-component {
+    width: $tour-banner-width;
+    height: $tour-banner-height;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.info-holder {
+    width: 90%;
+    height: 90%;
+    color: $site-white;
+    margin: auto;
+    text-align: center;
+
+    h1 {
+        font-family: proxima;
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 30px;
+        font-family: proxima;
+    }
+}
+
+.button1 {
+    width: 133px;
+    height: 40px;
+    background-color: $site-blue;
+    border: none;
+    text-transform: uppercase;
+    font-family: gillmore;
+    font-size: 15px;
+    color: $site-white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.isreal-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-01.jpg);
+}
+
+.us-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-02.jpg);
+}
+
+.aussie-pic {
+    background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-03.jpg);
+}

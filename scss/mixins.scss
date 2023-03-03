@@ -1,0 +1,30 @@
+@mixin site-blue-button(){
+    padding: 10px 20px;
+    background-color: $site-blue;
+}
+
+@mixin anchor-tags($sw: $site-white){
+    text-decoration: none;
+    color: $sw; 
+    font-family: gillmore;  
+    font-size: 15px; 
+    margin: 5px 15px 5px 15px;
+}
+
+@mixin nav-format($sw: $site-white){
+    margin: auto;
+    max-width: $site-nav-width;
+    height: $site-nav-height;
+    border-bottom: solid $sw 2px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 22px;
+}
+
+@mixin h1-format($font: $h1-font-size){
+    font-size: $font;
+    font-family: proxima;
+    display: inline-block;
+    border-bottom: solid #000 2px;
+}
