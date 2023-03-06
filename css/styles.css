@@ -388,7 +388,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 90px auto 0px auto;
+  margin: 100px auto 0px auto;
 }
 footer .copyright p {
   font-family: gillmore;
@@ -578,7 +578,7 @@ footer .socialmedia {
 .israel-wrapper .israel-schedule {
   width: 100%;
   height: 780px;
-  margin: 10px auto 0 auto;
+  margin: 10px auto 30px auto;
 }
 .israel-wrapper .israel-schedule h1 {
   font-size: 60px;
@@ -681,7 +681,7 @@ footer .socialmedia {
 .usa-wrapper .usa-schedule {
   width: 100%;
   height: 780px;
-  margin: 10px auto 0 auto;
+  margin: 10px auto 30px auto;
 }
 .usa-wrapper .usa-schedule h1 {
   font-size: 60px;
@@ -783,8 +783,8 @@ footer .socialmedia {
 }
 .aussie-wrapper .aussie-schedule {
   width: 100%;
-  height: 780px;
-  margin: 10px auto 0 auto;
+  min-height: 780px;
+  margin: 10px auto 0px auto;
 }
 .aussie-wrapper .aussie-schedule h1 {
   font-size: 60px;
