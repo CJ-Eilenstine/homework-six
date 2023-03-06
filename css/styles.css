@@ -558,22 +558,22 @@ footer .socialmedia {
   margin-bottom: 30px;
 }
 .israel-wrapper .israel-banners .i img {
-  width: 300px;
-  max-height: 350px;
+  width: 298px;
+  height: 347px;
 }
 .israel-wrapper .israel-banners .ii {
   margin-bottom: 30px;
 }
 .israel-wrapper .israel-banners .ii img {
-  width: 300px;
-  max-height: 350px;
+  width: 298px;
+  height: 347px;
 }
 .israel-wrapper .israel-banners .iii {
   margin-bottom: 30px;
 }
 .israel-wrapper .israel-banners .iii img {
-  width: 300px;
-  max-height: 350px;
+  width: 298px;
+  height: 347px;
 }
 .israel-wrapper .israel-schedule {
   width: 100%;
@@ -606,8 +606,109 @@ footer .socialmedia {
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1250px) {
   .israel-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.usa-wrapper {
+  max-width: 77.6%;
+  min-height: 700px;
+  margin: auto;
+  top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.usa-wrapper .usa-hero {
+  width: 100%;
+  height: 410px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+.usa-wrapper .usa-hero h1 {
+  font-size: 80px;
+  font-family: proxima;
+  color: #fff;
+}
+.usa-wrapper .usa-hero h2 {
+  font-size: 30px;
+  font-family: proxima;
+  color: #fff;
+  align-self: flex-end;
+}
+.usa-wrapper .usa-banners {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.usa-wrapper .usa-banners .i {
+  margin-bottom: 30px;
+}
+.usa-wrapper .usa-banners .i img {
+  width: 298px;
+  height: 347px;
+}
+.usa-wrapper .usa-banners .ii {
+  margin-bottom: 30px;
+}
+.usa-wrapper .usa-banners .ii img {
+  width: 298px;
+  height: 347px;
+}
+.usa-wrapper .usa-banners .iii {
+  margin-bottom: 30px;
+}
+.usa-wrapper .usa-banners .iii img {
+  width: 298px;
+  height: 347px;
+}
+.usa-wrapper .usa-schedule {
+  width: 100%;
+  height: 780px;
+  margin: 10px auto 0 auto;
+}
+.usa-wrapper .usa-schedule h1 {
+  font-size: 60px;
+  font-family: proxima;
+  color: #000;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+}
+.usa-wrapper .usa-schedule p {
+  font-size: 16px;
+  font-family: gillmore;
+  margin-bottom: 60px;
+}
+.usa-wrapper .usa-schedule .usa-button {
+  text-align: center;
+}
+.usa-wrapper .usa-schedule .usa-button a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 20px;
+  background-color: #79addc;
+  border-radius: 50px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1250px) {
+  .usa-banners {
     flex-direction: column;
     align-items: center;
   }

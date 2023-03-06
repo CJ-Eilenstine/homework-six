@@ -1,4 +1,4 @@
-.israel-wrapper {
+.usa-wrapper {
     max-width: 77.6%;
     min-height: 700px;
     margin: auto;
@@ -8,10 +8,10 @@
     flex-direction: column;
     align-items: center;
 
-    .israel-hero {
+    .usa-hero {
         width: 100%;
         height: 410px;
-        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-01.jpg);
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-02.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -37,9 +37,9 @@
         }
     }
 
-    .israel-banners {
+    .usa-banners {
         width: 100%;
-        min-height: 350px;
+        height: 350px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
@@ -72,7 +72,7 @@
         }
     }
 
-    .israel-schedule {
+    .usa-schedule {
         width: 100%;
         height: 780px;
         margin: 10px auto 0 auto;
@@ -87,7 +87,7 @@
             margin-bottom: 60px;
         }
 
-        .israel-button {
+        .usa-button {
             text-align: center;
             a {
                 text-decoration: none;
@@ -106,7 +106,7 @@
 }
 
 @media screen and (max-width:1250px){
-    .israel-banners {
+    .usa-banners {
         flex-direction: column;
         align-items: center;
     }
