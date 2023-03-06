@@ -717,5 +717,108 @@ footer .socialmedia {
     align-items: center;
   }
 }
+.aussie-wrapper {
+  max-width: 77.6%;
+  min-height: 700px;
+  margin: auto;
+  top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aussie-wrapper .aussie-hero {
+  width: 100%;
+  height: 410px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+.aussie-wrapper .aussie-hero h1 {
+  font-size: 80px;
+  font-family: proxima;
+  color: #fff;
+}
+.aussie-wrapper .aussie-hero h2 {
+  font-size: 30px;
+  font-family: proxima;
+  color: #fff;
+  align-self: flex-end;
+}
+.aussie-wrapper .aussie-banners {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.aussie-wrapper .aussie-banners .i {
+  margin-bottom: 30px;
+}
+.aussie-wrapper .aussie-banners .i img {
+  width: 298px;
+  height: 347px;
+}
+.aussie-wrapper .aussie-banners .ii {
+  margin-bottom: 30px;
+}
+.aussie-wrapper .aussie-banners .ii img {
+  width: 298px;
+  height: 347px;
+}
+.aussie-wrapper .aussie-banners .iii {
+  margin-bottom: 30px;
+}
+.aussie-wrapper .aussie-banners .iii img {
+  width: 298px;
+  height: 347px;
+}
+.aussie-wrapper .aussie-schedule {
+  width: 100%;
+  height: 780px;
+  margin: 10px auto 0 auto;
+}
+.aussie-wrapper .aussie-schedule h1 {
+  font-size: 60px;
+  font-family: proxima;
+  color: #000;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+}
+.aussie-wrapper .aussie-schedule p {
+  font-size: 16px;
+  font-family: gillmore;
+  margin-bottom: 60px;
+}
+.aussie-wrapper .aussie-schedule .aussie-button {
+  text-align: center;
+}
+.aussie-wrapper .aussie-schedule .aussie-button a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 20px;
+  background-color: #79addc;
+  border-radius: 50px;
+  margin-bottom: 100px;
+  font-family: gillmore;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1250px) {
+  .aussie-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
