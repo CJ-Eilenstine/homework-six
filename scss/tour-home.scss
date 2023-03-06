@@ -1,5 +1,5 @@
 .tour-home {
-    max-width: 980px;
+    max-width: 77.6%;
     min-height: 700px;
     margin: auto;
     top: 90px;
@@ -7,8 +7,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 142px;
-    margin-right: 141px;
+    // margin-left: 142px;
+    // margin-right: 141px;
 
     .tour-hero {
         width: 100%;
@@ -36,4 +36,15 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+}
+
+@media screen and (max-width:1020px){
+    .tour-home {
+
+        .tour-hero {
+            margin-left: 142px;
+            margin-right: 141px;
+        }
+    }
+    
 }

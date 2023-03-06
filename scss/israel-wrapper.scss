@@ -1,0 +1,113 @@
+.israel-wrapper {
+    max-width: 77.6%;
+    min-height: 700px;
+    margin: auto;
+    top: 90px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .israel-hero {
+        width: 100%;
+        height: 410px;
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-01.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 5px;
+
+        h1 {
+            font-size: 80px;
+            font-family: proxima;
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-family: proxima;
+            color: #fff;
+            align-self: flex-end;
+        }
+    }
+
+    .israel-banners {
+        width: 100%;
+        min-height: 350px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .i {
+            margin-bottom: 30px;
+
+            img {
+                width: 300px;
+                max-height: 350px;
+            }
+        }
+
+        .ii {
+            margin-bottom: 30px;
+            
+            img {
+                width: 300px;
+                max-height: 350px;
+            }
+        }
+
+        .iii {
+            margin-bottom: 30px;
+            
+            img {
+                width: 300px;
+                max-height: 350px;
+            }
+        }
+    }
+
+    .israel-schedule {
+        width: 100%;
+        height: 780px;
+        margin: 10px auto 0 auto;
+
+
+        h1 {
+            @include h1-format();
+        }
+
+        p {
+            @include p-format();
+            margin-bottom: 60px;
+        }
+
+        .israel-button {
+            text-align: center;
+            a {
+                text-decoration: none;
+                text-align: center;
+                text-transform: uppercase;
+                color: $site-white;
+                padding: 12px 20px;
+                background-color: $site-blue;
+                border-radius: 50px;
+                margin-bottom: 100px;
+            
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:1080px){
+    .israel-banners {
+        flex-direction: column;
+        align-items: center;
+    }
+}
