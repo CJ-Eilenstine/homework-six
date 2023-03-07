@@ -23,13 +23,11 @@
     color: $site-white;
     margin: auto;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    white-space: nowrap;
 
     h1 {
         font-family: proxima;
-        font-size: 60px;
+        font-size: 55px;
     }
 
     p {

@@ -35,13 +35,11 @@
   color: #fff;
   margin: auto;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 .info-holder h1 {
   font-family: proxima;
-  font-size: 60px;
+  font-size: 55px;
 }
 .info-holder p {
   font-size: 30px;
