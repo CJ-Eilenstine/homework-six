@@ -826,5 +826,320 @@ footer .socialmedia {
     align-items: center;
   }
 }
+.zealand-wrapper {
+  max-width: 77.6%;
+  min-height: 700px;
+  margin: auto;
+  top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.zealand-wrapper .zealand-hero {
+  width: 100%;
+  min-height: 410px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+.zealand-wrapper .zealand-hero h1 {
+  font-size: 80px;
+  font-family: proxima;
+  color: #fff;
+}
+.zealand-wrapper .zealand-hero h2 {
+  font-size: 30px;
+  font-family: proxima;
+  color: #fff;
+  align-self: flex-end;
+}
+.zealand-wrapper .zealand-banners {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.zealand-wrapper .zealand-banners .i {
+  margin-bottom: 30px;
+}
+.zealand-wrapper .zealand-banners .i img {
+  width: 298px;
+  height: 347px;
+}
+.zealand-wrapper .zealand-banners .ii {
+  margin-bottom: 30px;
+}
+.zealand-wrapper .zealand-banners .ii img {
+  width: 298px;
+  height: 347px;
+}
+.zealand-wrapper .zealand-banners .iii {
+  margin-bottom: 30px;
+}
+.zealand-wrapper .zealand-banners .iii img {
+  width: 298px;
+  height: 347px;
+}
+.zealand-wrapper .zealand-schedule {
+  width: 100%;
+  min-height: 780px;
+  margin: 10px auto 20px auto;
+}
+.zealand-wrapper .zealand-schedule h1 {
+  font-size: 60px;
+  font-family: proxima;
+  color: #000;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+}
+.zealand-wrapper .zealand-schedule p {
+  font-size: 16px;
+  font-family: gillmore;
+  margin-bottom: 60px;
+}
+.zealand-wrapper .zealand-schedule .zealand-button {
+  text-align: center;
+  margin-bottom: 10px;
+  min-height: 100px;
+  width: 100%;
+}
+.zealand-wrapper .zealand-schedule .zealand-button a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 20px;
+  background-color: #79addc;
+  border-radius: 50px;
+  font-family: gillmore;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1250px) {
+  .zealand-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.france-wrapper {
+  max-width: 77.6%;
+  min-height: 700px;
+  margin: auto;
+  top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.france-wrapper .france-hero {
+  width: 100%;
+  min-height: 410px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+.france-wrapper .france-hero h1 {
+  font-size: 80px;
+  font-family: proxima;
+  color: #fff;
+}
+.france-wrapper .france-hero h2 {
+  font-size: 30px;
+  font-family: proxima;
+  color: #fff;
+  align-self: flex-end;
+}
+.france-wrapper .france-banners {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.france-wrapper .france-banners .i {
+  margin-bottom: 30px;
+}
+.france-wrapper .france-banners .i img {
+  width: 298px;
+  height: 347px;
+}
+.france-wrapper .france-banners .ii {
+  margin-bottom: 30px;
+}
+.france-wrapper .france-banners .ii img {
+  width: 298px;
+  height: 347px;
+}
+.france-wrapper .france-banners .iii {
+  margin-bottom: 30px;
+}
+.france-wrapper .france-banners .iii img {
+  width: 298px;
+  height: 347px;
+}
+.france-wrapper .france-schedule {
+  width: 100%;
+  min-height: 780px;
+  margin: 10px auto 20px auto;
+}
+.france-wrapper .france-schedule h1 {
+  font-size: 60px;
+  font-family: proxima;
+  color: #000;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+}
+.france-wrapper .france-schedule p {
+  font-size: 16px;
+  font-family: gillmore;
+  margin-bottom: 60px;
+}
+.france-wrapper .france-schedule .france-button {
+  text-align: center;
+  margin-bottom: 10px;
+  min-height: 100px;
+  width: 100%;
+}
+.france-wrapper .france-schedule .france-button a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 20px;
+  background-color: #79addc;
+  border-radius: 50px;
+  font-family: gillmore;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1250px) {
+  .france-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.egypt-wrapper {
+  max-width: 77.6%;
+  min-height: 700px;
+  margin: auto;
+  top: 90px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.egypt-wrapper .egypt-hero {
+  width: 100%;
+  min-height: 410px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+.egypt-wrapper .egypt-hero h1 {
+  font-size: 80px;
+  font-family: proxima;
+  color: #fff;
+}
+.egypt-wrapper .egypt-hero h2 {
+  font-size: 30px;
+  font-family: proxima;
+  color: #fff;
+  align-self: flex-end;
+}
+.egypt-wrapper .egypt-banners {
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.egypt-wrapper .egypt-banners .i {
+  margin-bottom: 30px;
+}
+.egypt-wrapper .egypt-banners .i img {
+  width: 298px;
+  height: 347px;
+}
+.egypt-wrapper .egypt-banners .ii {
+  margin-bottom: 30px;
+}
+.egypt-wrapper .egypt-banners .ii img {
+  width: 298px;
+  height: 347px;
+}
+.egypt-wrapper .egypt-banners .iii {
+  margin-bottom: 30px;
+}
+.egypt-wrapper .egypt-banners .iii img {
+  width: 298px;
+  height: 347px;
+}
+.egypt-wrapper .egypt-schedule {
+  width: 100%;
+  min-height: 780px;
+  margin: 10px auto 20px auto;
+}
+.egypt-wrapper .egypt-schedule h1 {
+  font-size: 60px;
+  font-family: proxima;
+  color: #000;
+  display: inline-block;
+  border-bottom: solid #000 2px;
+}
+.egypt-wrapper .egypt-schedule p {
+  font-size: 16px;
+  font-family: gillmore;
+  margin-bottom: 60px;
+}
+.egypt-wrapper .egypt-schedule .egypt-button {
+  text-align: center;
+  margin-bottom: 10px;
+  min-height: 100px;
+  width: 100%;
+}
+.egypt-wrapper .egypt-schedule .egypt-button a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 20px;
+  background-color: #79addc;
+  border-radius: 50px;
+  font-family: gillmore;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1250px) {
+  .egypt-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

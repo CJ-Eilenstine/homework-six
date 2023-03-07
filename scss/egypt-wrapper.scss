@@ -1,0 +1,117 @@
+.egypt-wrapper {
+    max-width: 77.6%;
+    min-height: 700px;
+    margin: auto;
+    top: 90px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .egypt-hero {
+        width: 100%;
+        min-height: 410px;
+        background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/tour/tour-06.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 5px;
+
+        h1 {
+            font-size: 80px;
+            font-family: proxima;
+            color: #fff;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-family: proxima;
+            color: #fff;
+            align-self: flex-end;
+        }
+    }
+
+    .egypt-banners {
+        width: 100%;
+        min-height: 350px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .i {
+            margin-bottom: 30px;
+
+            img {
+                width: 298px;
+                height: 347px;
+            }
+        }
+
+        .ii {
+            margin-bottom: 30px;
+            
+            img {
+                width: 298px;
+                height: 347px;
+            }
+        }
+
+        .iii {
+            margin-bottom: 30px;
+            
+            img {
+                width: 298px;
+                height: 347px;
+            }
+        }
+    }
+
+    .egypt-schedule {
+        width: 100%;
+        min-height: 780px;
+        margin: 10px auto 20px auto;
+
+
+        h1 {
+            @include h1-format();
+        }
+
+        p {
+            @include p-format();
+            margin-bottom: 60px;
+        }
+
+        .egypt-button {
+            text-align: center;
+            margin-bottom: 10px;
+            min-height: 100px;
+            width: 100%;
+
+            a {
+                text-decoration: none;
+                text-align: center;
+                text-transform: uppercase;
+                color: $site-white;
+                padding: 12px 20px;
+                background-color:$site-blue;
+                border-radius: 50px;
+                font-family: gillmore;
+                font-size: 15px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:1250px){
+    .egypt-banners {
+        flex-direction: column;
+        align-items: center;
+    }
+}
